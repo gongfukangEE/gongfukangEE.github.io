@@ -7,7 +7,7 @@
 
 # Site settings
 title: G.FuKang's Blog
-brief-intro: Front-end Dev Engineer
+# brief-intro: Front-end Dev Engineer
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://gongfukangee.github.io" # the base hostname & protocol for your site
 
