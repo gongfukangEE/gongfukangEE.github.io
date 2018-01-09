@@ -3,7 +3,6 @@ layout: default
 title: Tags
 permalink: /tag/
 icon: tags
-type: page
 ---
 
 <div class="page clearfix">
@@ -25,8 +24,8 @@ type: page
                 <time>
                 {{ post.date | date:"%F" }} {{ post.date | date: "%a" }}.
                 </time>
-                <a class="title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-
+                <a class="title" href="{{ post.url }}">{{ post.title }}</a>
+	            <br/>
                 {% include category.html %}
                 {% include tag.html %}
             </li>
@@ -47,7 +46,7 @@ type: page
                 <ul id="content-side" class="content-ul">
                     {% for tag in sortedtags %}
                     <li>
-                        <a data-scroll href="#{{ tag }}">
+                        <a class="scroll" href="#{{ tag }}">
                             {{ tag }} ({{ site.tags[tag].size }})
                         </a>
                     </li>
