@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "数据结构[3] -- 带权图"
+title:  "数据结构[4] -- 带权图"
 categories: 数据结构和算法
 tags:  数据结构 算法
 author: G.Fukang
@@ -221,6 +221,3 @@ public void mstw(){
 ## Github
 
 完整代码，我托管在[Github](https://github.com/gongfukangEE/Data-Structures-Java/tree/master/src/GraphW)上，如果对你有帮助，请给我点个star以示肯定和鼓励。
-
-
-
