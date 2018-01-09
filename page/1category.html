@@ -3,7 +3,6 @@ layout: default
 title: Categories
 permalink: /category/
 icon: th-list
-type: page
 ---
 
 
@@ -13,17 +12,19 @@ type: page
         <hr>
         <ul>
             {% for category in site.categories %}
-            <h2 id="{{category | first}}">{{category | first}}</h2>
+            <h2 id="{{category | first}}">{{category | first}} </h2>
                 {% for posts in category  %}
                     {% for post in posts %}
                         {% if post.url %}
                         <li>
-                            <time>
+						  {% include category.html %}
+                          <!--  <time>
                             {{ post.date | date:"%F" }} {{ post.date | date: "%a" }}.
-                            </time>
-                            <a class="title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                            </time>-->
+							
+                            <a class="title" href="{{ post.url }}">{{ post.title }}</a>
 
-                            {% include category.html %}
+                            
                             {% include tag.html %}
                         </li>
                         {% endif %}
@@ -44,7 +45,7 @@ type: page
                 <ul id="content-side" class="content-ul">
                     {% for category in site.categories%}
                         <li>
-                            <a data-scroll href="#{{ category | first }}">
+                            <a class="scroll" href="#{{ category | first }}">
                                 {{ category | first }} ({{ category | last | size }})
                             </a>
                         </li>

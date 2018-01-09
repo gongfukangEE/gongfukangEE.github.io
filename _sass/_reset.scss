@@ -21,15 +21,15 @@ h3,
 h4,
 h5,
 h6 {
-    font-weight: 400;
+    font-weight: normal;
 }
 html {
     height: 100%;
 }
 body {
-    font-family: 'Helvetica Neue',Helvetica,Arial,'Microsoft YaHei',sans-serif;
+    font-family: 'Microsoft YaHei','Helvetica Neue',Helvetica,Arial,sans-serif;
     color: #333;
-    background-image: url(https://ooo.0o0.ooo/2016/06/20/5768c606cf9cb.jpg);
+    background-image: url(http://ww3.sinaimg.cn/large/7011d6cfjw1f1yyk5xe1sj203h03d742.jpg);
     position: relative;
     min-height: 100%;
     padding-bottom: 190px;
@@ -49,28 +49,30 @@ hr {
 
 ///////////
 h1 {
-    font-size: 30px;
+    font-size: 36px;
 }
 h2 {
-    font-size: 26px;
+    font-size: 30px;
     border-bottom: 1px solid #eee;
-    margin: 50px 0 25px;
 }
 h3 {
-    font-size: 23px;
-    margin: 50px 0 20px;
+    font-size: 26px;
 }
 h4 {
-    font-size: 19px;
-    margin: 30px 0 10px;
+    font-size: 22px;
 }
 h5 {
-    font-size: 17px;
-    margin: 20px 0 10px;
+    font-size: 20px;
 }
 h6 {
-    font-size: 16px;
-    margin: 10px 0 5px;
+    font-size: 18px;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 20px 0 10px;
 }
 blockquote {
     color: #444;
