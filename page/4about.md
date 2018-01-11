@@ -19,6 +19,7 @@ type: page
 
 - GitHub：[gongfukangEE](https://github.com/gongfukangEE)
 - Email：<gongfukang@outlook.com>
+- CSDN：[EEer_0101](http://blog.csdn.net/anonymousG?ref=toolbar)
 - 微博：[我就是个JIANG尸粉](https://weibo.com/u/5449105160?refer_flag=1001030101_&is_hot=1)
 - 知乎：[很多人](https://www.zhihu.com/people/anonymous_K/activities)
 
