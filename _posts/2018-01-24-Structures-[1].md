@@ -12,3 +12,7 @@ author: G.Fukang
 
 简单而言，遗传算法使用种群搜索技术，将种群代表一组问题解，通过对当前种群施加选择、交叉和变异等一系列遗传操作来产生新一代的种群，并逐步使种群进化到包含最优解的状态。
 
+### 遗传算法的运算流程
+
+![](https://github.com/gongfukangEE/gongfukangEE.github.io/blob/master/images/Data-Structures/GA.jpg)
+
