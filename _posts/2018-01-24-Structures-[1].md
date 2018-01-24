@@ -1,4 +1,10 @@
-
+---
+layout: post
+title:  "算法[1] -- 遗传算法(GA)"
+categories: 数据结构和算法
+tags: 算法
+author: G.Fukang
+---
 
 * content
 {:toc}
