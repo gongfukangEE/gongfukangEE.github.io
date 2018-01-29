@@ -8,11 +8,20 @@ author: G.Fukang
 
 * content
 {:toc}
-常用的排序算法：插入排序、归并排序、堆排序
+常用的排序算法：选择排序、插入排序、希尔排序、归并排序、堆排序
 
 
+## 选择排序
+
+**不断选择剩余元素的最小值**
+
+- 找到数组中最小的那个元素，然后将他和数组的第一个元素交换，如果第一个元素就是最小的元素那么就和它自己交换
+- 在剩下的元素中找到最小的元素，将它和数组的第二个元素交换
+- 循环，直到数组全部有序
 
 ## 插入排序 `O(N^2)`
+
+在插入排序中，假设一个很小的数据项在很靠近右端的位置上，这里本来应该是一个值较大的数据项所在的位置，把这个小数据项移动到在左边的正确位置上，所有的中间数据项都必须右移动一位，这个操作对每个数据项都执行了近`N`次的复制，数据项平均移动了`N/2`个位置，这就执行了`N`次`N/2`个移位，总共`N^2/2`次复制，因此插入排序的效率是`O(N^2)`
 
 - 从第一个元素开始，该元素可以认为已经被排序
 
@@ -54,6 +63,14 @@ author: G.Fukang
       }
   }
   ```
+
+## 希尔排序
+
+**希尔排序是一种基于插入排序的快速排序算法，它的思想是使数组中任意间隔为h的元素都是有序的。**
+
+对下图使用4增量间隔的希尔排序，对0、4、8号数据项完成排序后，算法向右移一步，对1、3、5号数据进行排序，直到所有间隔为4的数据项之间都已经完成排序，然后再进行普通的插入排序。
+
+![希尔排序](http://img.blog.csdn.net/20180129141938983?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvYW5vbnltb3VzRw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
 ## 归并排序 `O(N*logN)`
 
@@ -179,12 +196,12 @@ for(int i=0;i<size;i++)
 
 完整代码，我托管在[Github](https://github.com/gongfukangEE/Data-Structures-Java)上
 
-- [插入排序](https://github.com/gongfukangEE/Data-Structures-Java/blob/master/src/Sort/Simple_Sort/InsertionSort.java)
-
-
-- [归并排序-递归](https://github.com/gongfukangEE/Data-Structures-Java/blob/master/src/Sort/Advanced_Sort/MergeSort_2.java)
-- [归并排序-非递归](https://github.com/gongfukangEE/Data-Structures-Java/blob/master/src/Sort/Advanced_Sort/MergeSort_1.java)
-- [堆排序](https://github.com/gongfukangEE/Data-Structures-Java/tree/master/src/Sort/Advanced_Sort/HeapSort)
+-[选择排序](https://github.com/gongfukangEE/Data-Structures-Java/blob/master/src/Sort/Simple_Sort/SelectSort.java)
+-  [插入排序](https://github.com/gongfukangEE/Data-Structures-Java/blob/master/src/Sort/Simple_Sort/InsertionSort.java)
+-  [希尔排序](https://github.com/gongfukangEE/Data-Structures-Java/blob/master/src/Sort/Advanced_Sort/ShellSort.java)
+-  [归并排序-递归](https://github.com/gongfukangEE/Data-Structures-Java/blob/master/src/Sort/Advanced_Sort/MergeSort_2.java)
+-  [归并排序-非递归](https://github.com/gongfukangEE/Data-Structures-Java/blob/master/src/Sort/Advanced_Sort/MergeSort_1.java)
+-  [堆排序](https://github.com/gongfukangEE/Data-Structures-Java/tree/master/src/Sort/Advanced_Sort/HeapSort)
 
 
 如果对你有帮助，请给我点个star以示肯定和鼓励。
