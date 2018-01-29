@@ -8,7 +8,7 @@ author: G.Fukang
 
 * content
 {:toc}
-常用的排序算法：选择排序、插入排序、希尔排序、归并排序、堆排序
+常用的排序算法：选择排序、插入排序、希尔排序、归并排序、堆排序、快速排序
 
 
 ## 选择排序
@@ -192,6 +192,55 @@ for(int i=0;i<size;i++)
     array[i]=theHeap.remove();
 ```
 
+## 快速排序
+
+**特点**：
+
+- 快速排序是原地排序，只需要一个很小的辅助栈
+- 将长度为`N`的数组排序所需的时间和`NLogN`成正比
+
+快速排序是一种分治的排序算法，它将一个数组分成两个子数组，将两部分分别排序，当两个子数组都有序时整个数组也就自然有序了。
+
+### 基于递归的快速排序算法
+
+```java
+    public void quickSort() {
+        recQuickSort(0, nElems - 1);
+    }
+
+	//递归
+    public void recQuickSort(int left, int right) {
+        if (right - left <= 0)
+            return;
+        else {
+            long pivot = theArray[right];
+
+            int partition = partitonIt(left, right, pivot);
+            recQuickSort(left, partition - 1);
+            recQuickSort(partition + 1, right);
+        }
+    }
+
+	//划分
+    public int partitonIt(int left, int right, long pivot) {
+        int leftPtr = left - 1;
+        int rightPtr = right;
+        while (true) {
+            while (theArray[++leftPtr] < pivot) ;
+            while (theArray[--rightPtr] > pivot && rightPtr > 0) ;
+
+            if (leftPtr >= rightPtr)
+                break;
+            else
+                swap(leftPtr, rightPtr);
+        }
+        swap(leftPtr, rightPtr);
+        return leftPtr;
+    }
+```
+
+
+
 ## Github
 
 完整代码，我托管在[Github](https://github.com/gongfukangEE/Data-Structures-Java)上
@@ -202,6 +251,7 @@ for(int i=0;i<size;i++)
 -  [归并排序-递归](https://github.com/gongfukangEE/Data-Structures-Java/blob/master/src/Sort/Advanced_Sort/MergeSort_2.java)
 -  [归并排序-非递归](https://github.com/gongfukangEE/Data-Structures-Java/blob/master/src/Sort/Advanced_Sort/MergeSort_1.java)
 -  [堆排序](https://github.com/gongfukangEE/Data-Structures-Java/tree/master/src/Sort/Advanced_Sort/HeapSort)
+-  [快速排序](https://github.com/gongfukangEE/Data-Structures-Java/blob/master/src/Sort/Advanced_Sort/QuickSort/QuickSort.java)
 
 
 如果对你有帮助，请给我点个star以示肯定和鼓励。
