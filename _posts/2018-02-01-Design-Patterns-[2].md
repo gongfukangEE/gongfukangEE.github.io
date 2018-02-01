@@ -65,9 +65,9 @@ public class client01 {
 
 ![这里写图片描述](http://img.blog.csdn.net/20180201110648752?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvYW5vbnltb3VzRw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
-##工厂模式实现
+## 工厂模式实现
 
-###简单工厂模式
+### 简单工厂模式
 
 工厂一般使用静态方法，通过接收参数的不同来返回不同的对象实例，但是无法增加新产品（不修改代码）
 
@@ -102,7 +102,7 @@ public class client02 {
 
 ![这里写图片描述](http://img.blog.csdn.net/20180201110700772?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvYW5vbnltb3VzRw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
-###工厂方法模式
+### 工厂方法模式
 
 相对于简单工厂模式，工厂方法模式有一组实现了相同接口的工厂类
 
@@ -154,7 +154,7 @@ public class client {
 
 ![这里写图片描述](http://img.blog.csdn.net/20180201110737495?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvYW5vbnltb3VzRw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
-###抽象工厂模式
+### 抽象工厂模式
 
 用来生产不同产品族的全部产品，不可增加新产品，但是可以增加新产品族
 
