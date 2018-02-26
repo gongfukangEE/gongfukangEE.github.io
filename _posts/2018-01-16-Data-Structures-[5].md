@@ -245,7 +245,8 @@ for(int i=0;i<size;i++)
 
 完整代码，我托管在[Github](https://github.com/gongfukangEE/Data-Structures-Java)上
 
--[选择排序](https://github.com/gongfukangEE/Data-Structures-Java/blob/master/src/Sort/Simple_Sort/SelectSort.java)
+- [选择排序](https://github.com/gongfukangEE/Data-Structures-Java/blob/master/src/Sort/Simple_Sort/SelectSort.java)
+
 -  [插入排序](https://github.com/gongfukangEE/Data-Structures-Java/blob/master/src/Sort/Simple_Sort/InsertionSort.java)
 -  [希尔排序](https://github.com/gongfukangEE/Data-Structures-Java/blob/master/src/Sort/Advanced_Sort/ShellSort.java)
 -  [归并排序-递归](https://github.com/gongfukangEE/Data-Structures-Java/blob/master/src/Sort/Advanced_Sort/MergeSort_2.java)
