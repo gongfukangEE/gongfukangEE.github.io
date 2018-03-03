@@ -1,0 +1,104 @@
+---
+layout: post
+title:  "Spring学习笔记[1] -- IOC"
+categories: WEB开发
+tags:  Spring
+author: G.Fukang
+---
+* content
+{:toc}
+
+Spring IOC 快速入门
+
+## IOC 概述
+
+IOC：`Inverse of Control`，控制反转，指的是对象的创建权反转（交给）Spring框架，其作用是实现了程序的解耦合
+
+## IOC的实现原理
+
+### 传统方式
+
+面向接口编程，资源创建的权力由App决定，获取资源的时候需要`new`一个新对象，在切换底层类的实现的时候，需要修改程序的源码
+
+![这里写图片描述](http://img.blog.csdn.net/2018030323160976?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvYW5vbnltb3VzRw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+
+### IOC控制反转
+
+将控制权移交给Spring，通过工厂+反射+配置文件来实现解耦合
+
+![这里写图片描述](http://img.blog.csdn.net/20180303231622590?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvYW5vbnltb3VzRw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+
+## 入门程序
+
+### 创建 接口
+
+```java
+public interface UserService {
+    public void sayHello();
+}
+```
+
+### 编写接口 实现类
+
+```java
+public class UserServiceImpl implements UserService {
+    public void sayHello(){
+        System.out.println("Demo01: Hello Spring ");
+    }
+}
+```
+
+### 约束的配置文件
+
+在`applicationContest.xml`中使用`bean`标签
+
+```xml
+<bean id="userService" class="gongfukangee.Demo01.UserServiceImpl"/>
+```
+
+### 创建测试类
+
+```java
+public class Demo01Test {
+  /**
+     * @Auther gongfukang
+     *原来的方法
+     */
+    @org.junit.Test
+    public void run1(){
+        //创建实现类
+        UserServiceImpl userService=new UserServiceImpl();
+        userService.sayHello();
+    }
+  
+      /**
+     * @Auther gongfukang
+     * Spring-IoC 
+     */
+    @org.junit.Test
+    public void run2(){
+        // 创建工厂，加载核心配置文件
+        ApplicationContext applicationContext=new ClassPathXmlApplicationContext("applicationContext.xml");
+        // 从工厂中获得对象，与在XML bean 标签使用的 id 一致
+        UserServiceImpl userService=(UserServiceImpl) applicationContext.getBean("userService");
+        // 调用对象的方法执行
+        userService.sayHello();
+    }
+}
+```
+
+##  `Bean`标签的配置
+
+- `id`属性：Bean标签的名字，在约束中唯一，取值要求：必须以字母开始，不能出现特殊字符
+- `name`属性：Bean标签的名字，没有采用ID的约束
+- `class`属性：Bean对象的全路径
+- `scope`属性：`scope`属性代表Bean的作用范围
+  - `singleton`：单例（默认）
+  - `prototype`：多例
+  - `request`：在Web项目中，每次HTTP请求都会创建一个新的Bean
+  - `session`：在Web项目中，同一个HTTP Session共享一个Bean
+  - `globalsession`：在Web项目中，多服务器间的session
+- Bean对象的创建和销毁两个属性配置
+  - `init-method`：当Bean被载入到容器的时候调用`init-method`属性指定的方法
+  - `destroy-method`：当Bean从容器中删除的时候调用`destroy-method`属性指定的方法
+
