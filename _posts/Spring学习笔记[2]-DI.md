@@ -1,6 +1,15 @@
+---
+layout: post
+title:  "Spring学习笔记[2] -- DI"
+categories: WEB开发
+tags:  Spring
+author: G.Fukang
+---
 * content
 {:toc}
 ## DI 概述
+
+Spring学习之DI（依赖注入）
 
 DI：`Dependency Injection`，依赖注入，在Spring框架负责创建Bean对象的时候，动态的将依赖对象注入到Bean组件中
 
