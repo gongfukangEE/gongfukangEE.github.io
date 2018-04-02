@@ -2,7 +2,7 @@
 layout: post
 title:  "[转]如何快速成长为技术大牛？"
 categories: Life
-tags:  Summary
+tags:  转载
 author: G.Fukang
 ---
 * content
