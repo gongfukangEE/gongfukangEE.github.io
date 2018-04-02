@@ -2,7 +2,7 @@
 layout: post
 title:  "设计模式[3] -- 适配器模式"
 categories: 设计模式
-tags:  设计模式
+tags:  设计模式 适配器模式
 author: G.Fukang
 ---
 * content

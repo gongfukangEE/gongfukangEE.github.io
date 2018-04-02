@@ -2,7 +2,7 @@
 layout: post
 title:  "设计模式[2] -- 工厂模式"
 categories: 设计模式
-tags:  设计模式
+tags:  设计模式 工厂模式
 author: G.Fukang
 ---
 * content

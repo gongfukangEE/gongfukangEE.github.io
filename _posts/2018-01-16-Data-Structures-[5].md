@@ -2,7 +2,7 @@
 layout: post
 title:  "数据结构[5] -- 排序算法"
 categories: 数据结构和算法
-tags:  数据结构 算法
+tags:  数据结构 算法 排序
 author: G.Fukang
 ---
 

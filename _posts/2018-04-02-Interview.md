@@ -2,7 +2,7 @@
 layout: post
 title:  "[转]如何在阿里技术面试中脱颖而出？"
 categories: Life
-tags:  Summary
+tags:  Summary Interview
 author: G.Fukang
 ---
 * content

@@ -2,7 +2,7 @@
 layout: post
 title:  "数据结构[3] -- 无权图"
 categories: 数据结构和算法
-tags:  数据结构 算法
+tags:  数据结构 算法 DFS BFS MST 图
 author: G.Fukang
 ---
 
