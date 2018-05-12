@@ -67,7 +67,7 @@ Cookie 是 HTTP 头中的一个字段，虽然 HTTP 本身对这个字段并没�
 
 ### Session 与 Cookie 关系
 
-Cookie 和 Session 的方案虽然分别属于客户端和服务端，但是服务端的 Session 的实现对客户端的 Cookie 有依赖关系。服务端执行 Session 机制时候会生成 Session 的 id 值，这个 id 值会发送给客户端，客户端每次请求都会把这个 id 值放到 HTTP 请求的头部发送给服务端，而这个 id 值在客户端会保存下来，保存的容器就是 Cookie。
+Cookie 和 Session 的方案虽然分别属于客户端和服务端，但是服务端的 Session 的实现对客户端的 Cookie 有依赖关系。服务端执行 Session 机制时候会生成 Session 的 ID 值，这个 ID 值会发送给客户端，客户端每次请求都会把这个 ID 值放到 HTTP 请求的头部发送给服务端，而这个 ID 值在客户端会保存下来，保存的容器就是 Cookie。
 
 Session 基于 Cookie 三种工作方式：
 
