@@ -49,6 +49,8 @@ Servlet 程序是由 web 服务器调用，web 服务器实现了对 servlet 生
 
 ## Servlet 运行工作原理
 
+![](https://github.com/gongfukangEE/gongfukangEE.github.io/raw/master/_pic/Web/servlet-work.jpg)
+
 ### 工作流程
 
 - Web Client 向 Servlet 容器（Tomcat）发出 Http 请求
