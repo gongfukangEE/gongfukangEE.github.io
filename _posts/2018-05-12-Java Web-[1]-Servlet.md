@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Java Web 学习笔记[1] -- Servlet 工作原理解析"
-categories: WEB开发
+categories: WEB开发 Java-Web
 tags:  Servlet Java-Web
 author: G.Fukang
 ---

@@ -2,7 +2,7 @@
 layout: post
 title:  "数据结构[4] -- 带权图"
 categories: 数据结构和算法
-tags:  数据结构 算法 MSTW Dijkstra 图
+tags:  数据结构 算法 MSTW Dijkstra 
 author: G.Fukang
 ---
 

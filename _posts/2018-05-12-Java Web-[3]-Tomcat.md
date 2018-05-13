@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Java Web 学习笔记[3] -- Tomcat 的系统架构"
-categories: WEB开发
+categories: WEB开发 Java-Web
 tags:  Tomcat Java-Web
 author: G.Fukang
 ---
@@ -179,9 +179,6 @@ Host 是 Engine 的子容器，一个 Host 在 Engine 中代表一个虚拟主�
 
 ![](https://github.com/gongfukangEE/gongfukangEE.github.io/raw/master/_pic/Web/Tomcat%20Host%26Engine.png)
 
-
-
-### 
 
 
 
