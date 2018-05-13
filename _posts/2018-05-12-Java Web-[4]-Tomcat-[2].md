@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Java Web 学习笔记[3] -- Tomcat 的设计模式"
+title:  "Java Web 学习笔记[4] -- Tomcat 的设计模式"
 categories: WEB开发 Java-Web 设计模式
 tags:  Tomcat Java-Web
 author: G.Fukang
