@@ -2,7 +2,7 @@
 layout: post
 title:  "设计模式[4] -- 代理模式"
 categories: 设计模式
-tags:  设计模式 代理模式
+tags:  代理模式
 author: G.Fukang
 ---
 * content
