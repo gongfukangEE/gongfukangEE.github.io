@@ -26,5 +26,5 @@ type: page
 
 ## 书库
 
-[这里](https://drive.google.com/open?id=1X28-ojyT3Ntvpvl4toIxYA55ds0u-3zN)（Google 云端硬盘）是我整理互联网计算机类的 PDF 书籍，欢迎自取（自备梯子）
+[这里](https://drive.google.com/drive/folders/1X28-ojyT3Ntvpvl4toIxYA55ds0u-3zN?usp=sharing)（Google 云端硬盘）是我整理互联网计算机类的 PDF 书籍，欢迎自取（自备梯子）
 
