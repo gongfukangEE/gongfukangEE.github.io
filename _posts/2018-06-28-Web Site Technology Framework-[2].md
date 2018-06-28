@@ -67,6 +67,8 @@ CDN（内容分发网络）本质仍然是一个缓存，而且将数据缓存�
 
 代理服务器也可以通过配置缓存功能加速 Web 请求，当用户第一次访问静态内容的时候，静态内容就被缓存在反向代理服务器上，这样当其他用户访问该静态内容的时候，就直接从反向代理服务器返回，加速 Web 请求响应速度，减轻 Web 服务器压力。
 
+![](https://github.com/gongfukangEE/gongfukangEE.github.io/raw/master/_pic/Web/Framework_12.jpg)
+
 ## 应用服务器性能优化
 
 ### 分布式缓存
