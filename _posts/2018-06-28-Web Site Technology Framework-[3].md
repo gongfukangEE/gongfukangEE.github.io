@@ -17,6 +17,8 @@ author: G.Fukang
 
 [大型网站技术架构[3] -- 网站的高可用架构](https://gongfukangee.github.io/2018/06/28/Web-Site-Technology-Framework-3/)
 
+[大型网站技术架构[4] -- 网站的伸缩性架构](https://gongfukangee.github.io/2018/08/04/Web-Site-Technology-Framework-4/)
+
 # 1、分层架构
 
 网站的高可用架构设计的目的就是保证服务器硬件故障时服务依然可用，数据依然保存并能够被访问

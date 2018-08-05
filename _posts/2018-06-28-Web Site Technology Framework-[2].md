@@ -13,7 +13,11 @@ author: G.Fukang
 
 [大型网站技术架构[1] -- 大型网站架构概述](https://gongfukangee.github.io/2018/06/27/Web-Site-Technology-Framework-1/)
 
-[大型网站技术架构[2] -- 网站的高性能架构]()
+[大型网站技术架构[2] -- 网站的高性能架构](https://gongfukangee.github.io/2018/06/28/Web-Site-Technology-Framework-2/)
+
+[大型网站技术架构[3] -- 网站的高可用架构](https://gongfukangee.github.io/2018/06/28/Web-Site-Technology-Framework-3/)
+
+[大型网站技术架构[4] -- 网站的伸缩性架构](https://gongfukangee.github.io/2018/08/04/Web-Site-Technology-Framework-4/)
 
 # 1、性能测试
 

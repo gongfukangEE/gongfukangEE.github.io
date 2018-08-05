@@ -17,6 +17,8 @@ author: G.Fukang
 
 [大型网站技术架构[3] -- 网站的高可用架构](https://gongfukangee.github.io/2018/06/28/Web-Site-Technology-Framework-3/)
 
+[大型网站技术架构[4] -- 网站的伸缩性架构](https://gongfukangee.github.io/2018/08/04/Web-Site-Technology-Framework-4/)
+
 # 1、网站架构的伸缩性设计
 
 网站的伸缩性设计可分为两类：
