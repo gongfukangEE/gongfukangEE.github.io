@@ -20,7 +20,7 @@ type: page
 - **缓存： Redis**
 - **消息中间件：  Kafka + RabbitMQ**
 - **搜索引擎： ElasticSearch**
-- **分布式：Zookeeper + Dubbo **
+- **分布式：Zookeeper + Dubbo**
 
 ## 项目
 
