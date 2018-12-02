@@ -10,25 +10,7 @@ type: page
 {:toc}
 ## 关于我
 
-电子科技大学   电子与通信工程   硕士
-
-**技术栈：**
-
-- **Java  并发 + JVM + JMM**
-- **数据库：  MySQL**
-- **web：  Spring + SpringMVC + MyBatis**
-- **缓存： Redis**
-- **消息中间件：  Kafka + RabbitMQ**
-- **搜索引擎： ElasticSearch**
-- **分布式：Zookeeper + Dubbo**
-
-## 项目
-
-- 基于 SSM 的 B2C 在线商城
-- SSM + Redis + RabbitMQ 秒杀
-- 轻量级 SpringMVC 框架
-- 基于 Spring Boot 资讯平台
-- 基于 ElasticSearch 的房屋租赁平台
+郫县技校在读，主要使用 Java，目前从事后端开发相关工作，了解分布式，对大数据也有兴趣
 
 ## 关于本站
 
