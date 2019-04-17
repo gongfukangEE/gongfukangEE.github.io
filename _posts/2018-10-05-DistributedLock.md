@@ -105,6 +105,8 @@ connection.commit();
 - 判断 currentExpireTime 与 oldExpireTime 是否相等，如果相等说明当前 getset 设置成功，获取到了锁，如果不相等，则当前请求可以直接返回失败，或者继续重试
 - 在获取到锁之后，当前线程可以开始处理自己的业务，当处理完毕后，比较自己的处理时间和对于锁设置的超时时间，如果小于锁设置的超时时间，则直接执行 delete 释放锁；如果大于锁设置的超时时间，则不需要再锁进行处理。
 
+![](<https://github.com/gongfukangEE/gongfukangEE.github.io/raw/master/_pic/%E5%88%86%E5%B8%83%E5%BC%8F/Redis%E5%88%86%E5%B8%83%E5%BC%8F%E9%94%81.png>)
+
 **存在问题**
 
 - 锁超时机制不是十分可靠，当线程获得锁后，处理时间过长导致锁超时，就失效了锁的作用 
