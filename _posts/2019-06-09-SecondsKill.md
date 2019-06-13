@@ -1,12 +1,10 @@
 ---
 layout: post
 title:  "如何设计一个秒杀系统"
-categories: 架构
+categories: [秒杀, 并发, 架构]
 tags:  秒杀 并发 架构
 author: G.Fukang
 ---
-* content
-{:toc}
 如何设计一个秒杀系统
 
 ## 系统的特点

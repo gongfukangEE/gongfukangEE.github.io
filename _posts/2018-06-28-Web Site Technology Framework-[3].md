@@ -1,12 +1,12 @@
 ---
 layout: post
 title:  "大型网站技术架构[3] -- 网站的高可用架构"
-categories: WEB开发 Java-Web
-tags:  Java-Web 架构
+categories: [WEB开发, Java-Web, 架构]
+keywords:  Java-Web, 架构
 author: G.Fukang
 ---
-* content
-{:toc}
+
+
 《大型网站技术架构：核心原理与案例分析》读书笔记
 
 # 索引

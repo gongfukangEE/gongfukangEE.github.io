@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Java Web 学习笔记[3] -- Tomcat 的系统架构"
-categories: [WEB开发, Java-Web]
+categories: [WEB开发, Java-Web, Tomcat]
 description: Tomcat 的系统架构与设计模式（上）
 keywords:  Tomcat, Java-Web
 author: G.Fukang

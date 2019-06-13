@@ -1,12 +1,10 @@
 ---
 layout: post
 title:  "浅析布隆过滤器"
-categories: 分布式
+categories: [分布式, 缓存, 架构, BloomFilter]
 tags:  分布式 Redis 缓存 BloomFilter
 author: G.Fukang
 ---
-* content
-{:toc}
 浅析布隆过滤器原理以及 Java 实现
 
 # 布隆过滤器原理

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "大型网站技术架构[2] -- 网站的高性能架构"
-categories: [WEB开发, Java-Web]
+categories: [WEB开发, Java-Web, 架构]
 keywords:  Java-Web, 架构
 author: G.Fukang
 ---

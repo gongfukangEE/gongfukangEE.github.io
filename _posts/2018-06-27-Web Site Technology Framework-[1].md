@@ -1,9 +1,8 @@
 ---
 layout: post
 title:  "大型网站技术架构[1] -- 大型网站架构概述"
-categories: [WEB开发, Java-Web]
+categories: [WEB开发, Java-Web, 架构]
 description: 大型网站架构概述
-keywords:  Java-Web, 架构
 author: G.Fukang
 ---
 # 索引

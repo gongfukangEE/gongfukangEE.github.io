@@ -1,12 +1,10 @@
 ---
 layout: post
 title:  "如何保证业务的幂等性"
-categories: 分布式
+categories: [分布式, Redis, Zookeeper, 架构]
 tags:  分布式 幂等性
 author: G.Fukang
 ---
-* content
-{:toc}
 浅析幂等性及常用解决方案
 
 # 什么是幂等性

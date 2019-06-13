@@ -1,15 +1,11 @@
 ---
 layout: post
 title:  "浅析分布式事务"
-categories: 分布式
+categories: [分布式, 分布式事务, 架构, 消息队列]
 tags:  分布式 分布式事务
 author: G.Fukang
 ---
-* content
-{:toc}
 浅析分布式事务：XA、TCC、MQ事务、最大努力通知
-
-
 
 # 事务的定义
 

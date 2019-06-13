@@ -1,15 +1,11 @@
 ---
 layout: post
 title:  "浅析 Spring IOC 机制"
-categories: WEB开发
+categories: [WEB开发, Spring, IOC]
 tags:  Spring 
 author: G.Fukang
 ---
-* content
-{:toc}
 浅析 Spring IOC 机制
-
-
 
 # IOC 理论
 

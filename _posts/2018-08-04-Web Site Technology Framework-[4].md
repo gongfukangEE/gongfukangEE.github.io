@@ -1,12 +1,10 @@
 ---
 layout: post
 title:  "大型网站技术架构[4] -- 网站的伸缩性架构"
-categories: WEB开发 Java-Web
-tags:  Java-Web 架构
+categories: [WEB开发, Java-Web, 架构]
+tags:  Java-Web, 架构
 author: G.Fukang
 ---
-* content
-{:toc}
 《大型网站技术架构：核心原理与案例分析》读书笔记
 
 # 索引

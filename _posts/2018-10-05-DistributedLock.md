@@ -1,12 +1,10 @@
 ---
 layout: post
 title:  "分布式锁"
-categories: 分布式 
+categories: [分布式, 分布式锁, MySQL, Redis, Zookeeper] 
 tags:  分布式 分布式锁
 author: G.Fukang
 ---
-* content
-{:toc}
 分布式锁设计与实现：MySQL、Redis、Zookeeper
 
 # 1 为什么需要分布式锁
