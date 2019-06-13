@@ -1,14 +1,10 @@
 ---
 layout: post
-title:  "[转]如何在阿里技术面试中脱颖而出？"
+title:  [转]如何在阿里技术面试中脱颖而出？
 categories: Life
-tags:  Interview 转载
-author: G.Fukang
+description: 如何在阿里技术面试中脱颖而出
+keywords:  Interview, 转载
 ---
-* content
-{:toc}
-如何在阿里技术面中脱颖而出，转载自公众号**[阿里技术](https://mp.weixin.qq.com/s/LAUKwTo4c0pvzSarKFM-rg)**
-
 ## 导读
 
 知己知彼、百战不殆，面试也是如此。只有充分了解面试官的思路，才能更好地在面试中充分展现自己。

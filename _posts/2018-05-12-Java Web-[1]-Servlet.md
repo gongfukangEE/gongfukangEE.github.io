@@ -1,14 +1,11 @@
 ---
 layout: post
 title:  "Java Web 学习笔记[1] -- Servlet 工作原理解析"
-categories: WEB开发 Java-Web
-tags:  Servlet Java-Web
+categories: [WEB开发, Java-Web]
+description: Servlet 工作原理解析
+keywords:  Servlet, Java-Web
 author: G.Fukang
 ---
-* content
-{:toc}
-《深入分析 Java Web 技术内幕》读书笔记：Servlet 工作原理解析
-
 ## Servlet  架构 
 
 ![](https://github.com/gongfukangEE/gongfukangEE.github.io/raw/master/_pic/Web/servlet-arch.jpg)

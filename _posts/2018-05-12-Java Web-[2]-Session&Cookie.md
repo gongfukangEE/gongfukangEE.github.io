@@ -1,16 +1,11 @@
 ---
 layout: post
 title:  "Java Web 学习笔记[2] -- 深入理解 Session 与 Cookie"
-categories: WEB开发 Java-Web
-tags:  Session Cookie Java-Web
+categories: [WEB开发, Java-Web]
+description: 深入理解 Session 与 Cookie
+keywords:  Session, Cookie, Java-Web
 author: G.Fukang
 ---
-* content
-{:toc}
-《深入分析 Java Web 技术内幕》读书笔记：深入理解 Session 与 Cookie
-
-Session 和 Cookie 的作用都是为了保持访问用户与后端服务器的交互状态
-
 ## 理解 Cookie
 
 ### Cookie 作用

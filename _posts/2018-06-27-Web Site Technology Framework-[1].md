@@ -1,14 +1,11 @@
 ---
 layout: post
 title:  "大型网站技术架构[1] -- 大型网站架构概述"
-categories: WEB开发 Java-Web
-tags:  Java-Web 架构
+categories: [WEB开发, Java-Web]
+description: 大型网站架构概述
+keywords:  Java-Web, 架构
 author: G.Fukang
 ---
-* content
-{:toc}
-《大型网站技术架构：核心原理与案例分析》读书笔记
-
 # 索引
 
 [大型网站技术架构[1] -- 大型网站架构概述](https://gongfukangee.github.io/2018/06/27/Web-Site-Technology-Framework-1/)

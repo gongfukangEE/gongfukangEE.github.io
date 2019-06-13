@@ -1,14 +1,11 @@
 ---
 layout: post
 title:  "Java Web 学习笔记[4] -- Tomcat 的设计模式"
-categories: WEB开发 Java-Web 设计模式
-tags:  Tomcat Java-Web
+categories: [WEB开发, Java-Web, 设计模式]
+description: Tomcat 的系统架构与设计模式（下）
+keywords:  Tomcat, Java-Web
 author: G.Fukang
 ---
-* content
-{:toc}
-《深入分析 Java Web 技术内幕》读书笔记：Tomcat 的系统架构与设计模式（下）
-
 ## 概述
 
 Tomcat 中用了很多设计模式，比如：模板模式，工厂模式和单例模式等常见的设计模式，除此之外还有以下几种设计模式。

@@ -2,13 +2,10 @@
 layout: post
 title:  "[转]如何快速成长为技术大牛？"
 categories: Life
-tags:  转载
+description: 如何快速成长为技术大牛
+keywords: 转载, 技术成长
 author: G.Fukang
 ---
-* content
-{:toc}
-如何快速成长为技术大牛，转载自公众号**[阿里技术](https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247487144&idx=1&sn=53adfa6f353feb4eeb722e4f04cc6b87&chksm=e92933a7de5ebab1d02b7f45d28bf3eb53bb40ae05ce6194726982ef59d2566e9253625ffe4c&scene=21#wechat_redirect)**
-
 ## 导读
 
 你是否有类似这样的问题——“天天写业务代码的程序员，怎么成为技术大牛，开始写技术代码？”今天，阿里资深无线开发专家李运华，系统梳理了自己的思考和理解，希望帮助更多同学少走一些弯路。
