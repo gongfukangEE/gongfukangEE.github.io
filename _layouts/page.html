@@ -1,28 +1,39 @@
 ---
 layout: default
 ---
-
-<div class="page clearfix" post>
-    <div class="left">
-        <h1>{{page.title}}</h1>
-        <hr>
-        {{content}}
-    </div>
-    <button class="anchor"><i class="fa fa-anchor"></i></button>
-    <div class="right">
-        <div class="wrap">
-
-            <!-- Content -->
-            <div class="side content">
-                <div>
-                    Content
+<section class="collection-head small geopattern" data-pattern-id="{{ page.title | truncate: 15}}">
+    <div class="container">
+        <div class="collection-title">
+            <h1 class="collection-header">{{ page.title }}</h1>
+            {% if page.subtitle %}
+                <div class="collection-info">
+                    <span class="meta-info">
+                        {{ page.subtitle}}
+                    </span>
                 </div>
-                <ul id="content-side" class="content-ul">
-                </ul>
-            </div>
-            <!-- 其他div框放到这里 -->
-            <!-- <div class="side">bbbb</div> -->
+            {% endif %}
         </div>
     </div>
-</div>
-<script src="{{ "/js/pageContent.js " | prepend: site.baseurl }}" charset="utf-8"></script>
+</section>
+<!-- / .banner -->
+ <section class="container content">
+        <div class="columns">
+            <div class="column two-thirds" >
+                <article class="article-content markdown-body">
+                    {{ content }}
+                </article>
+                <div class="share">
+                    {% include sns-share.html %}
+                </div>
+                <div class="comment">
+                    {% include comments.html %}
+                </div>
+            </div>
+            <div class="column one-third">
+                {% include sidebar-search.html %}
+                {% include sidebar-qrcode.html %}
+                {% include sidebar-popular-repo.html %}
+            </div>
+        </div>
+    </section>
+    <!-- /section.content -->
