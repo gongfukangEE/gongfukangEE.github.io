@@ -13,7 +13,7 @@ permalink: /about/
 
 # 联系我
 
-- GitHub：[@G.Fukang](<https://gongfukangee.github.io/>)
+- GitHub：[@G.Fukang](<https://github.com/gongfukangEE>)
 - OutLook：[gongfukang@outlook.com](gongfukang@outlook.com)
 - 掘金：[@匿名用户_01](<https://juejin.im/user/5b0a70c7f265da0dc9244c6c>)
 - BiliBli：[@老司机23336666](https://space.bilibili.com/76380419)
