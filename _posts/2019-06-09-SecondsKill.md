@@ -34,14 +34,6 @@ author: G.Fukang
 
 ## 代码优化
 
-代码整体思路参考的 [@crossoverJie](<https://github.com/crossoverJie>)，做了以下几点变动
-
-1. 将 SSM 换成 SpringBoot，开箱即用，替换 Mapper XML 为注解，去掉 Dubbo 和 Zookeeper
-2. 原项目中依赖了开发者自己的开源包 [distributed-redis-tool](<https://github.com/crossoverJie/distributed-redis-tool>)，本项目将用到的限流部分直接集成到代码中
-3. 加入缓存预热，在秒杀开始前，将库存信息读到缓存中，并暴露数据库和缓存重置方法便于服务器部署压测
-4. 缓存更新逻辑中加入 Redis 事务，避免脏数据
-5. 将 Kafka-client 替换为 spring-kafka，自动配置，通过 KafkaTemplate 和 Listen 进行消息的生产和消费，采用 Gson 进行 Kafka 消息序列化和反序列化，精简大量代码
-
 ### Jmeter 压测并发量变化图
 
 ![](<https://github.com/gongfukangEE/gongfukangEE.github.io/raw/master/_pic/%E5%88%86%E5%B8%83%E5%BC%8F/Jmeter%20%E5%8E%8B%E5%8A%9B%E6%B5%8B%E8%AF%95%20TPS.png>)
